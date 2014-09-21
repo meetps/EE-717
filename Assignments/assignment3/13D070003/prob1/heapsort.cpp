@@ -5,6 +5,7 @@
 using namespace std;
 #include "heap.h"
 
+
 void SortArray(int *input, int n);
 void printArray(int *array, int n);
 
@@ -18,13 +19,14 @@ void SortArray (int *input, int n) {
 /*Complete the  function to use the Heap ADT defined above to 
 sort the array of n elements. The elements should be stored back in the array
 called input*/
-for(int i =0; i < n, i++)
+for(int i =0; i < n; i++)
 	{
 		heap.insertHeap(input[i]);
 	}
-for(int i =0; i < n, i++)
+for(int i =0; i < n; i++)
 	{
 		input[i] = heap.deleteMin();
+		cout << input[i];
 	}
 }
 
