@@ -91,7 +91,7 @@ priority[last+1] = x;
 
     for(int j =1; j <= level; j++)
     {   
-        if(priority[getParent(child)] >= x)
+        if(priority[getParent(child)] >  x)
         {
           temp = priority[child]; 
           priority[child] = priority[getParent(child)];

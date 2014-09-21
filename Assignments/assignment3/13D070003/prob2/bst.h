@@ -14,5 +14,5 @@ private:
   BinSearchTree* buildTree(BinSearchTree *tree, char letter);
   void printTreePreOrder (BinSearchTree *temp, std::ofstream &fp1);
   void printTreeInOrder (BinSearchTree *temp, std::ofstream &fp1);
-
+  
 };
