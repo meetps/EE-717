@@ -33,7 +33,7 @@ int main(int argc, char **argv)
 	fp >> str[0];
 
 	T = new BinSearchTree(str[0]);
-	for(i=0; i<num; i++){
+	for(i=1; i<num; i++){
 		fp >> str[i];
 		T->buildTree(T,str[i]);
 	}
